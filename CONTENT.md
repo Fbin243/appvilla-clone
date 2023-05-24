@@ -8,6 +8,8 @@ Brand color: #FF6B81
 
 ## Navigation
 
+[comment]: Fbin
+
 - Home
 - Feature
 - Overview
@@ -25,6 +27,8 @@ Brand color: #FF6B81
 
 ## Hero
 
+[comment]: Demo
+
 A Powerful App For Your Business.
 
 From open source to pro services, Piqes helps you to build, deploy, test, and monitor apps.
@@ -33,11 +37,13 @@ From open source to pro services, Piqes helps you to build, deploy, test, and mo
 
 ## Feature boxes (Grid)
 
+[comment]: Demo
+
 Your Experience Gets Better And Better Over Time.
 
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
 
-### Box content
+**Box content**:
 
 - Push to Deploy
 - SSL Certificates
@@ -52,6 +58,8 @@ It is a long established fact that a reader will be distracted by the readable c
 
 ## Feature rows (Z-pattern)
 
+[comment]: Fbin
+
 - 1,25,000 Customers Using The Application!
 - Seamless Loyalty
 
@@ -60,6 +68,8 @@ Collaborate over projects with your team and clients optimised for mobile and ta
 ---
 
 ## Statistics
+
+[comment]: Demo
 
 Trusted by developers from over 80 planets
 
@@ -72,6 +82,8 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 ---
 
 ## Pricing
+
+[comment]: Fbin
 
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
 
@@ -93,6 +105,8 @@ Include:
 
 ## Profile
 
+[comment]: Demo
+
 Meat Our Team
 
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
@@ -104,7 +118,9 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 
 ## Testimonial (Carousel)
 
-"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"
+[comment]: Demo
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
 
 - Musharof Chowdhury: CEO - Ayro UI
 - Musharof Chowdhury: CEO - GrayGrids
@@ -114,6 +130,8 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 
 ## Install (CTA)
 
+[comment]: Fbin
+
 Install Appvilla and Start Using
 
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
@@ -121,6 +139,8 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 ---
 
 ## Frequently Asked Questions (Accordion)
+
+[comment]: Fbin
 
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
 
@@ -139,6 +159,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
 
 ## Blog
 
+[comment]: Demo
+
 - Boost your conversion rate : Roel Aufderhar Mar 15,2023 5 min read
 - How to use search engine: Jenifer Zuliya Feb 10,2023 7 min read
 - Awesome ways to boost sales: Roel Aufderhar Jan 20,2023 6 min read
@@ -147,9 +169,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
 
 ## Customer logos
 
+[comment]: Demo
+
 ---
 
 ## Footer
+
+[comment]: Fbin
 
 Making the world a better place through constructing elegant hierarchies.
 
@@ -183,6 +209,8 @@ Designed and Developed by UIdeck
 ---
 
 ## Form (CTA)
+
+[comment]: Fbin
 
 Subscribe To Our Newsletter
 
