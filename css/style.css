@@ -313,3 +313,94 @@
 .install-btn:nth-child(2):active .install-icon {
   fill: #ff6b81;
 }
+
+/**************************/
+/* FAQ */
+/**************************/
+.faq {
+  padding: 10rem 0;
+}
+
+.faq-desc {
+  margin-bottom: 8.4rem;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.faq-item {
+  border: 0.1rem solid #eee;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.faq-wrapper {
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.faq-number {
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 1.6rem;
+  color: #081828;
+  border: 0.1rem solid #eee;
+  border-radius: 50%;
+  font-weight: 600;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.faq-question {
+  color: #081828;
+  font-weight: 600;
+}
+
+.faq-icon {
+  margin-left: auto;
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #081828;
+}
+
+.faq-icon--opened {
+  fill: #fff;
+  display: none;
+}
+
+.faq-answer {
+  display: none;
+  padding: 4rem;
+  fill: #081828;
+}
+
+.faq--actived .faq-answer,
+.faq--actived .faq-icon--opened {
+  display: block;
+}
+
+.faq--actived .faq-icon--closed {
+  display: none;
+}
+
+.faq--actived {
+  background-color: #f9f9f9;
+}
+
+.faq--actived .faq-wrapper {
+  background-color: #ff6b81;
+}
+
+.faq--actived .faq-question {
+  color: #fff;
+}
+
+.faq--actived .faq-number {
+  background-color: #fff;
+  color: #081828;
+}
