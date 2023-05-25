@@ -82,3 +82,59 @@
 .sub-nav-included:active::before {
   display: block;
 }
+
+/**************************/
+/* Application */
+/**************************/
+.app {
+  /* temp  */
+  height: 50rem;
+  align-items: center;
+  margin-bottom: 26rem;
+}
+
+.app-icon {
+  width: 6rem;
+  height: 6rem;
+  color: #fff;
+  background-color: #ff6b81;
+  border-radius: 0.5rem;
+  padding: 1.8rem;
+  fill: #fff;
+  margin-bottom: 3rem;
+}
+
+.app-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #081828;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+}
+
+.app-desc {
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.app-btn:link,
+.app-btn:visited {
+  background-color: #ff6b81;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.app-btn:hover,
+.app-btn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.app-img {
+  width: 58.6rem;
+  padding-left: 5rem;
+}
+
+.app-img + .app-content {
+  padding-left: 4rem;
+}
