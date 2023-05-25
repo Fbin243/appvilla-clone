@@ -34,6 +34,7 @@
 #081828 (heading)
 #3B4653 (footer)
 #888888 (paragraph) --> default color for body
+#C1C5CB (footer)
 #D2D6DC (footer)
 #EEEEEE (border)
 #F9F9F9 (background)
@@ -67,8 +68,6 @@ body {
   font-weight: 400;
   color: #888;
   font-size: 1.5rem;
-  /*temp*/
-  height: 500rem;
 }
 
 /**************************/

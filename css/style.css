@@ -86,8 +86,6 @@
 /* Application */
 /**************************/
 .app {
-  /* temp  */
-  height: 50rem;
   align-items: center;
   margin-bottom: 26rem;
 }
@@ -403,4 +401,170 @@
 .faq--actived .faq-number {
   background-color: #fff;
   color: #081828;
+}
+
+/**************************/
+/* Footer */
+/**************************/
+.footer {
+  background-color: #081828;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+.footer .container {
+  grid-template-columns: 2fr repeat(4, 1fr);
+}
+
+.footer-info {
+  padding-right: 2.4rem;
+}
+
+.footer-info .logo {
+  margin-bottom: 2.4rem;
+}
+
+.footer-desc {
+  margin-bottom: 3rem;
+  color: #d2d6dc;
+  font-size: 1.4rem;
+}
+
+.footer-social-links {
+  display: flex;
+  margin-bottom: 4.2rem;
+  gap: 1.6rem;
+}
+
+.footer-social-link:link .footer-social-link-icon,
+.footer-social-link:visited .footer-social-link-icon {
+  fill: #c1c5cb;
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-social-link:hover .footer-social-link-icon,
+.footer-social-link:active .footer-social-link-icon {
+  fill: #ff6b81;
+}
+
+.footer-copyright {
+  color: #d2d6dc;
+  font-size: 1.4rem;
+}
+
+.footer-list {
+  padding-left: 1.6rem;
+}
+
+.footer-list-title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  color: #d2d6dc;
+}
+
+.footer-list-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-list-link:link,
+.footer-list-link:visited {
+  color: #d2d6dc;
+}
+
+.footer-list-link:hover,
+.footer-list-link:active {
+  color: #ff6b81;
+}
+
+/**************************/
+/* Call to action */
+/**************************/
+
+.cta {
+  margin-top: 10rem;
+}
+
+.cta-wrapper {
+  border: 2px solid #303d4a;
+  padding: 5rem;
+  gap: 3rem;
+  border-radius: 1rem;
+}
+
+.cta-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  color: #d2d6dc;
+}
+
+.cta-desc {
+  font-size: 1.5rem;
+  color: #d2d6dc;
+}
+
+.cta-form {
+  margin-left: auto;
+}
+
+.cta-input {
+  background-color: #3b4653;
+  padding: 1.6rem 2rem;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 30rem;
+  border: none;
+  outline: none;
+}
+
+.cta-input::placeholder {
+  color: #fff;
+}
+
+.cta-btn {
+  color: #fff;
+  background-color: #ff6b81;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #fff;
+  color: #ff6b81;
+}
+
+.web-scroll-btn {
+  position: fixed;
+  bottom: 3.2rem;
+  right: 3.2rem;
+  width: 4.6rem;
+  height: 4.6rem;
+  background-color: #ff6b81;
+  justify-content: center;
+  padding-top: 0.6rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.web-scroll-btn .web-scroll-icon {
+  fill: #fff;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.web-scroll-btn:hover {
+  background-color: #081828;
+  bottom: 3.6rem;
 }
