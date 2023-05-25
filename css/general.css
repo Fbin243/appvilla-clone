@@ -1,0 +1,88 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- Font family: 'Inter'
+- Font sizes: 
+3.8rem: hero-heading
+3.5rem: main-heading in background
+3.4rem: main-heading
+3rem
+1.8rem
+1.7rem
+1.5rem: subheading, paragraph, link
+1.4rem
+1.3rem
+
+- Font weights:
+300: light 
+400: regular 
+500: medium 
+600: semiBold 
+700: bold 
+
+
+- Line heights:
+- Letter spacing:
+
+--- 02 COLORS
+- Primary: #FF6B81
+- Tints: 
+- Shades:
+- Grey: 
+#081828 (heading)
+#3B4653 (footer)
+#888888 (paragraph) --> default color for body
+#D2D6DC (footer)
+#F9F9F9 (background)
+
+--- 04 ICONS
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #888;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+.container {
+  max-width: 132rem;
+  padding: 0 1.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 2.4rem;
+  row-gap: 3rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
