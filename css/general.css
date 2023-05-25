@@ -18,6 +18,7 @@
 500: medium 
 600: semiBold 
 700: bold 
+800
 
 
 - Line heights:
@@ -38,10 +39,14 @@
 #F9F9F9 (background)
 
 --- 04 ICONS
+https://phosphoricons.com/
 
 --- 05 SHADOWS
+0 0 1rem rgba(0, 0, 0, 0.2);
 
 --- 06 BORDER-RADIUS
+0.5rem
+1rem
 
 --- 07 WHITESPACE
 */
@@ -110,17 +115,19 @@ a {
 }
 
 .main-heading {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 3.4rem;
+  font-weight: 800;
   color: #081828;
-  margin-bottom: 3rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.4;
 }
 
 .sub-heading {
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #ff6b81;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
 }
 
 .paragraph {

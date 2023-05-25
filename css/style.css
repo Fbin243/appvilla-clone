@@ -232,3 +232,84 @@
   height: 1.7rem;
   fill: #ff6b81;
 }
+
+/**************************/
+/* Install */
+/**************************/
+.install {
+  background-color: #ff6b81;
+  padding: 10rem 0;
+}
+
+.install-heading {
+  font-size: 3.8rem;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+
+.install-desc {
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+
+.install-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.install-btn:link,
+.install-btn:visited {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  justify-content: center;
+  padding: 1.4rem 2.7rem;
+}
+
+.install-btn:nth-child(1):link,
+.install-btn:nth-child(1):visited {
+  color: #ff6b81;
+  background-color: #fff;
+}
+
+.install-btn:nth-child(1):link .install-icon,
+.install-btn:nth-child(1):visited .install-icon {
+  fill: #ff6b81;
+}
+
+.install-btn:nth-child(1):hover,
+.install-btn:nth-child(1):active {
+  color: #fff;
+  background-color: #081828;
+}
+
+.install-btn:nth-child(1):hover .install-icon,
+.install-btn:nth-child(1):active .install-icon {
+  fill: #fff;
+}
+
+.install-btn:nth-child(2):link,
+.install-btn:nth-child(2):visited {
+  background-color: #ff6b81;
+  border: 2px solid #fff;
+}
+
+.install-btn:nth-child(2):link .install-icon,
+.install-btn:nth-child(2):visited .install-icon {
+  fill: #fff;
+}
+
+.install-btn:nth-child(2):hover,
+.install-btn:nth-child(2):active {
+  color: #ff6b81;
+  background-color: #fff;
+}
+
+.install-btn:nth-child(2):hover .install-icon,
+.install-btn:nth-child(2):active .install-icon {
+  fill: #ff6b81;
+}
