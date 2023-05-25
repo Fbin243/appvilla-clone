@@ -54,10 +54,13 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #888;
+  font-size: 1.5rem;
+  /*temp*/
+  height: 500rem;
 }
 
 /**************************/
@@ -85,4 +88,45 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  width: 16.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+
+.btn:link,
+.btn:visited {
+  color: #fff;
+  padding: 1.6rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  color: #ff6b81;
+  background-color: #fff;
 }

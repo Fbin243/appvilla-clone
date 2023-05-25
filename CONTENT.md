@@ -11,13 +11,13 @@ Brand color: #FF6B81
 [comment]: Fbin
 
 - Home
-- Feature
+- Features
 - Overview
 - Pricing
 - Team
 - Blog
 
-  - Blog grid side bar
+  - Blog grid sidebar
   - Blog single
   - Blog single sidebar
 
