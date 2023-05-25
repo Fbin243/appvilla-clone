@@ -94,6 +94,8 @@ Type:
 - Startup: $32/mo
 - Enterprise: $48/mo
 
+All the basics for starting a new business
+
 Include:
 
 - Cras justo odio.

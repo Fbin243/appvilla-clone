@@ -21,7 +21,6 @@
   color: #fff;
   padding: 4rem 0;
   display: inline-block;
-  /* letter-spacing: 0.05rem; */
 }
 
 .header .btn {
@@ -109,12 +108,12 @@
   font-weight: 700;
   color: #081828;
   line-height: 1.4;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .app-desc {
   line-height: 1.6;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 
 .app-btn:link,
@@ -137,4 +136,99 @@
 
 .app-img + .app-content {
   padding-left: 4rem;
+}
+
+/**************************/
+/* Pricing */
+/**************************/
+.pricing {
+  background-color: #f9f9f9;
+  padding: 10rem 0;
+}
+
+.pricing-boxes {
+  margin-top: 8.4rem;
+}
+
+.pricing-box {
+  border: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.pricing-box:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.pricing-info {
+  padding: 2.6rem;
+}
+
+.pricing-title {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #081828;
+}
+
+.pricing-box-desc {
+  font-size: 1.4rem;
+}
+
+.pricing-money {
+  margin: 3.6rem 0;
+}
+
+.pricing-money span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #081828;
+}
+
+.pricing-btn:link,
+.pricing-btn:visited {
+  display: block;
+  background-color: #081828;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+}
+
+.pricing-btn:hover,
+.pricing-btn:active {
+  background-color: #ff6b81;
+  color: #fff;
+}
+
+.pricing-include {
+  padding: 2.6rem;
+  border-top: 1px solid #eee;
+}
+
+.pricing-include-title {
+  text-transform: uppercase;
+  color: #081828;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  font-weight: 500;
+}
+
+.pricing-include-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.pricing-include-item {
+  font-size: 1.4rem;
+  gap: 1.2rem;
+}
+
+.pricing-include-icon {
+  font-size: 1.4rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  fill: #ff6b81;
 }
