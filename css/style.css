@@ -568,3 +568,38 @@
   background-color: #081828;
   bottom: 3.6rem;
 }
+
+/**************************/
+/* Hero */
+/**************************/
+.hero {
+  height: 100vh;
+  position: relative;
+  color: white;
+  padding-top: 160px;
+  padding-bottom: 120px;
+  padding-left: 120px;
+  padding-right: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: flex-start;
+}
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.hero-content p {
+  line-height: 20px;
+}
+.hero-img {
+  padding: 0px 12px;
+}
